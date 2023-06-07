@@ -1,0 +1,12 @@
+body {  
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v980-aum-05-kp6j9mou.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=7d53f989f4b0eb793b842f69fb4f4f85');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5px;
+    
+    
+  }

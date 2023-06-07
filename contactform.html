@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> PRAPTI PATEL||Contact Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="contactform.css">
+    <script src="contactform.js"></script>
+
+  </head>
+  <body>
+  
+    <div class="container">
+      <div class="row">
+        <div style="width: 40%; margin: 25px auto">
+          <h2 style="text-align: center ; font-family: 'Times New Roman', Times, serif; font-weight: bold;">Contact Us</h2>
+          <form method="POST" action="">
+            <div class="form-group">
+              <label for="name" style="font-family: 'Times New Roman', Times, serif; font-weight:bold;"> Name</label
+              ><input
+                type="text"
+                name="UserName"
+                id="name"
+                class="form-control"
+                autofocus
+               required
+               placeholder="Enter your beautiful name"
+              />
+ 
+              <div class="form-group">
+                <label for="email" style="font-family: 'Times New Roman', Times, serif; font-weight:bold;">E-mail</label
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-control"
+                  autofocus
+                  required
+                  placeholder="E-mail id"
+                />
+              </div>
+  
+            </div>
+            <div class="form-group">
+                <label for="number" style="font-family: 'Times New Roman', Times, serif; font-weight:bold;">Phone number</label>
+                <input type="text" name="number" id="number" class="form-control" required 
+                placeholder="Enter your Phone number">
+              </div>
+            
+            
+            <label style="font-family: 'Times New Roman', Times, serif; font-weight:bold;">Captcha:</label>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" readonly id="capt" />
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" id="textinput" 
+                placeholder="Enter Captcha"/>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <button
+                onclick="validcap()"
+                class="btn btn-lg btn-success btn-block"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+          <h6 style="font-family: 'Times New Roman', Times, serif; font-weight:bold;">
+            Captcha not visible/Refresh
+            <img src="refresh.jpg" width="40px" onclick="cap()" />
+          </h6>
+        
+  </body>
+</html>
+
